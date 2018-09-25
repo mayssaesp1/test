@@ -1,0 +1,132 @@
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+<HTML>
+<HEAD>
+<TITLE>Les Formulaires</TITLE>
+</HEAD>
+<BODY>
+<FORM METHOD="GET" ACTION="nom_de_votre_page.html">
+<CENTER>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="5" WIDTH="90%">
+<TR>
+<TD WIDTH="20%"><B>Civilité</B>
+<TD WIDTH="70%">
+<INPUT TYPE=RADIO NAME=civilite
+VALUE="Mademoiselle">Mademoiselle
+<INPUT TYPE=RADIO NAME=civilite
+VALUE="Madame">Madame
+<INPUT TYPE=RADIO NAME=civilite VALUE="Monsieur"
+CHECKED>Monsieur
+<TR>
+<TD><B>Nom / Prénom</B></TD>
+<TD> <INPUT TYPE=TEXT NAME=nom SIZE=50 MAXLENGTH=80></TD>
+<TR>
+<TD><B>Adresse</B></TD>
+<TD><TEXTAREA NAME=adresse COLS=50 ROWS=2 >Rue No Boîte
+postale</TEXTAREA></TD>
+<TR>
+<TD><B>No postal / Localité</B></TD>
+<TD><INPUT TYPE=TEXT NAME=no_postal Size=5 MAXLENGTH=4>
+<INPUT TYPE=TEXT NAME=localite SIZE=20 MAXLENGTH=80
+VALUE="Jendouba">
+</TD>
+<TR>
+<TD><B>Pays</B> </TD>
+<TD> <SELECT NAME=pays>
+<OPTION>France
+<OPTION>Italie
+<OPTION SELECTED>Tunisie
+</SELECT>
+<TR>
+<TD><B>Plateforme(s)</B></TD>
+<TD><INPUT TYPE=CHECKBOX NAME=materiel VALUE="Windows"
+CHECKED>Windows
+<INPUT TYPE=CHECKBOX NAME=materiel VALUE="Mac"
+CHECKED>Macintosh
+<INPUT TYPE=CHECKBOX NAME=materiel VALUE="Unix">Unix
+</TD>
+ 
+<TR>
+<TD><B>Applications(s)</B>
+<TD><SELECT NAME=applications SIZE=5 MULTIPLE>
+<OPTION SELECTED>Bureautique
+<OPTION>DAO
+<OPTION>Statistiques
+<OPTION>SGBD
+<OPTION SELECTED>Internet
+</SELECT>
+</TD>
+</TR>
+</TABLE>
+<BR>
+<INPUT TYPE=SUBMIT VALUE=" Soumettre formulaire "> <INPUT
+TYPE=RESET VALUE=" Effacer ">
+</CENTER>
+</FORM>
+</BODY>
+</HTML>
